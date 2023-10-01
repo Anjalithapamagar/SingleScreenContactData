@@ -1,0 +1,4 @@
+# SingleScreenContactData
+
+This is a simple contact form to collect all the contact data(First Name, Last Name, and Email Address) in a single screen.
+There are two button (Send and Clear) to send and clear all inputs in the form simultaneously.
