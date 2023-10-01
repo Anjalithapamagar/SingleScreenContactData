@@ -2,12 +2,12 @@ import React from 'react';
 import { StyleSheet, View } from 'react-native';
 
 import Regform from './app/components/Regform'
-export default class App extends React.Component{
-  render(){
-    return(
+export default class App extends React.Component {
+  render() {
+    return (
       <View style={styles.container}>
         {/* Include the Regform component */}
-        <Regform/>
+        <Regform />
       </View>
     )
   }

@@ -36,7 +36,7 @@ export default class Regform extends React.Component {
     render() {
         return (
             <View style={StyleSheet.regform}>
-                <Text style={styles.header}>Registration Form</Text>
+                <Text style={styles.header}>Contact Form</Text>
                 <Text style={styles.label}>First Name</Text>
                 <TextInput
                     style={styles.textinput}
@@ -81,7 +81,6 @@ export default class Regform extends React.Component {
 const styles = StyleSheet.create({
     regform: {
         flex: 1,
-
         padding: 16
     },
     header: {
@@ -90,6 +89,7 @@ const styles = StyleSheet.create({
         paddingBottom: 8,
         color: '#028599',
         marginBottom: 20,
+        fontWeight: 'bold',
     },
     label: {
         fontSize: 16,
@@ -99,8 +99,10 @@ const styles = StyleSheet.create({
     textinput: {
         height: 40,
         borderColor: '#028599',
+        color: '#028599',
         borderWidth: 1,
         marginBottom: 16,
+        paddingStart: 8,
 
     },
     buttonContainer: {
@@ -109,10 +111,10 @@ const styles = StyleSheet.create({
     },
     button: {
         height: 40,
-        width: 80,
+        width: 120,
         alignItems: 'center',
         justifyContent: 'center',
-        borderRadius: 5,
+        borderRadius: 16,
         marginHorizontal: 8,
         marginTop: 30,
     },
